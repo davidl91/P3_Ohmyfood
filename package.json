@@ -1,0 +1,11 @@
+{
+  "name": "p3_ohmyfood",
+  "version": "1.0.0",
+  "description": "P3_Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "davidl91",
+  "license": "ISC"
+}
