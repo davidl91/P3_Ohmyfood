@@ -1,0 +1,33 @@
+@keyframes fonctmenu {
+    from {
+        opacity:0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+@keyframes fonctloader {
+    0% {
+        opacity:90%;
+    }
+    95% {
+        opacity:0%;
+    }
+    100% {
+        opacity:0%;
+        z-index: -100;
+    }
+}
+@keyframes fonctloadertext {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+    50% {
+        transform: translateY(-20px) scale(1.15);
+    }
+    100% {
+        transform: translateY(0px) scale(0);
+    }
+}

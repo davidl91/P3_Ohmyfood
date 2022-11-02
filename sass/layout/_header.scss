@@ -1,0 +1,14 @@
+.header {
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    &__ico {
+        position: absolute;
+        left: 20px;
+        font-size: 22px;
+    }
+}

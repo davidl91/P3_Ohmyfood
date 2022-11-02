@@ -1,0 +1,44 @@
+.intro {
+    padding: 25px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &__title {
+        padding: 25px;
+    }
+    &__paragraph {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    &__link {
+        margin: 30px;
+        padding: 15px 20px;
+        border-radius: 25px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration: none;
+        color: #fff;
+        background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+        box-shadow: 0px 5px 5px #C6C6C6;
+    }
+    &__link:hover {
+        box-shadow: 0px 5px 5px #979797;
+        opacity: 85%;
+        transition-duration: 600ms;
+    }
+}
+@media screen and (min-width: 768px) {
+    .intro {
+        padding: 10px;
+        &__title {
+            padding: 10px;
+        }
+        &__link {
+            margin: 15px;
+        }
+    }
+}
